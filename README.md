@@ -31,7 +31,7 @@ pip install -R requirements.txt
 
 > ### Desenvolvimento
 >  docker-compose up  
-> Crie o Banco de dados chamado eayse
+> Crie o Banco de dados chamado easy
 > ou edite as configurações de banco de dados em settings.py
  
 > ## Endpoint
