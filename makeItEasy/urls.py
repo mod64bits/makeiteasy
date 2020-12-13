@@ -1,7 +1,8 @@
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from rest_framework.authtoken.views import obtain_auth_token
+from apps.core.views import CustomUserAuthToken
+
 
 from apps.pessoas.views import PessoaViewSet
 from apps.usuarios.views import UserViewSet
@@ -16,6 +17,6 @@ router.register(r'users', UserViewSet)
 
 urlpatterns = [
     path('api/v1/', include(router.urls)),
-    path('api-token-auth/', obtain_auth_token),
+    path('api-token-auth/', CustomUserAuthToken.as_view()),
     path('admin/', admin.site.urls),
 ]

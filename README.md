@@ -1,9 +1,8 @@
 # Sistema Make It Easy
 
-## Equipe:
+## Desenvolvido com amor por:
 > ### mod64bits (Marcio Oliveira D.) Email: mod64bits@gmail.com
 
-> ### Raphael ()
 
 > ## Instalação:
 
@@ -46,3 +45,19 @@ pip install -R requirements.txt
 > "users": "http://127.0.0.1:8000/api/v1/users/"
 
 > "autenticação": "http://127.0.0.1:8000/api-token-auth/"
+ 
+
+> ### Desenvolvimento
+>  docker-compose up  
+> Crie o Banco de dados chamado easy
+> ou edite as configurações de banco de dados em settings.py
+ 
+> ## Font-end
+
+> yarn 
+
+> yarn start
+
+> http://localhot:3000
+ 
+
